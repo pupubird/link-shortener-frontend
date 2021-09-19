@@ -24,7 +24,7 @@
 <form
   name="shortenForm"
   class="shortenForm"
-  on:click|preventDefault={shortenLink}
+  on:submit|preventDefault={shortenLink}
 >
   <input
     type="text"
